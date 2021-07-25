@@ -2,28 +2,35 @@
 <html>
 	<head>
 		<meta charset = "UTF-8" />
-		<title>Module 06 Lab</title>
+		<title>Module 07 Lab</title>
 		<style>
 			body {margin: 0; padding: 0;}
-			.header {height: 200px; vertical-align: top; text-align: center; background-color: green;}
-			.footer {height: 200px; vertical-align: top; text-align: center; background-color: green;}
-			.main {min-width: 600px; text-align: left; vertical-align: top; background-color: orange;}
-			.sidebars {width: 20%; vertical-align: top; background-color: purple;}
+			.first-child {xx}
+			.last-chiild {xx}
+			#content {position: relative;}
 		</style>
 	</head>
 <body>
-	<table style="width: 100%; min-height: 100vh;">
-		<tr>
-			<th colspan="3" class="header">HEADER</th>
-		</tr>
-		<tr>
-			<td class="sidebars">LEFT SIDEBAR</td>
-			<td class="main">MAIN CONTENT</td>
-			<td class="sidebars">RIGHT SIDEBAR</td>
-		</tr>
-		<tr>
-			<td colspan="3" class="footer">FOOTER</td>
-		</tr>		
-	</table>
+	<header style="width: 100%; height: 200px; background-color: red;">
+		<h1>
+			HEADER
+		</h1>
+	</header>
+	<div id="content">
+		<aside style="width: 20%; position: absolute;">
+			ASIDE
+		</aside>
+		<main style="width: 60%; margin-left: 20%; margin-right: 20%; min-height: cal(100vh - 400px); background-color: darkolivegreen;">
+			
+		</main>
+		<aside style="width: 20%; position: absolute;">
+			ASIDE
+		</aside>
+	</div>
+	<footer style="height: 200px; width: 100%; background-color: red;">
+		<p>
+			FOOTER
+		</p>		
+	</footer>
 </body>
 </html>
