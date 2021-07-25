@@ -20,8 +20,8 @@ main{
 	background-color: brown;
 }
 aside:first-class{
-
+	grid-area: left;
 }
 aside:last-class{
-
+	grid-area: right;
 }
