@@ -18,6 +18,7 @@ header{
 aside{
 	background-color: darkgray;
 	grid-area: left;
+	padding: 1em;
 }
 main{
 	background-color: brown;
@@ -29,4 +30,5 @@ aside: last-of-type{
 footer{
 	background-color: darkgreen;
 	grid-area: footer;
+	p[padding: 1em;]
 }
