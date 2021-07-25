@@ -2,9 +2,9 @@ div.elements{
 	margin: 2em;
 	padding: 2em;
 	border: 1em;
-	border-color: seashell;
+	border-color: darkred;
 	width: 30em;
-	background-color: rebeccapurple;
+	background-color: yellow;
 }
 .elements1{
 	box-sizing: content-box;
