@@ -24,7 +24,7 @@ main{
 	background-color: brown;
 	grid-area: main;
 }
-aside{
+aside:last-of-type{
 	background-color: darkgray;
 	grid-area: right;
 }
