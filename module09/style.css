@@ -6,9 +6,9 @@ div.elements{
 	width: 30em;
 	background-color: rebeccapurple;
 }
-#elements1{
+.elements1{
 	box-sizing: content-box;
 }
-#elements2{
+.elements2{
 	box-sizing: border-box;
 }
