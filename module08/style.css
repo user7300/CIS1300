@@ -13,19 +13,20 @@ body{
 }
 header{
 	background-color: darkgreen;
-}
-footer{
-	background-color: darkgreen;
+	grid-area: header;
 }
 aside{
 	background-color: darkgray;
+	grid-area: left;
 }
 main{
 	background-color: brown;
+	grid-area: main;
 }
-aside:first-class{
-	grid-area: left;
-}
-aside:last-class{
+aside: last-of-type{
 	grid-area: right;
+}
+footer{
+	background-color: darkgreen;
+	grid-area: footer;
 }
