@@ -244,16 +244,16 @@ iframe {
         background-image:none;
       }
       51% {
-        background-image:url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
+        background-image:none;
       }
       90% {
-        background-image:url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
+        background-image:none;
       }
       91% {
-        background-image:none;
+        background-image:url(https://user7300.github.io/CIS1300/module10/image/arrow.png);
       }
       100% {
-        background-image:none;
+        background-image:url(https://user7300.github.io/CIS1300/module10/image/arrow.png);
       }
       
     }
