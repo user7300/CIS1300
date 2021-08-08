@@ -60,7 +60,14 @@ html.not-top {
 }
 /*the entire body of the html page*/
 body {    
-	background: #eeeeee;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdeb8e+0,a5c956+100;Green+3D+%232 */
+background: #cdeb8e; /* Old browsers */
+background: -moz-linear-gradient(top,  #cdeb8e 0%, #a5c956 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+
+    
 }
 /* a wrapper around all the actual page content
 this will be centered on the page*/
@@ -111,10 +118,19 @@ iframe {
     margin: 0 auto;
     position: relative;
     padding: 0;
-    width: 100%
+    width: 100%;
+    height: 0px;
+    width: 100%;
+    padding-bottom: 75%;
+    position: relative;
 }
 
-   
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}  
 
 /*--------------------------------------------------------------
 # Footer Area
@@ -140,6 +156,8 @@ iframe {
     border-radius: 1rem;
     margin: 1em 1em 2em 1em;
     max-width: 600px;
+    background-color: #FAF9F6; /* off white color cdoe */
+    box-shadow: black;
 }
 .polaroid .aspect-ratio {
 
