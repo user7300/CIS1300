@@ -236,9 +236,12 @@ iframe {
       }
       
     }
-    @keyframes arrowlight {
+  @keyframes arrowlight {
       0% {
-        background-image:none;
+        background-image: url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
+      }
+      30% {
+        background-image: url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
       }
       50% {
         background-image:none;
@@ -250,10 +253,10 @@ iframe {
         background-image:none;
       }
       91% {
-        background-image:url(https://user7300.github.io/CIS1300/module10/image/arrow.png);
+        background-image:url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
       }
       100% {
-        background-image:url(https://user7300.github.io/CIS1300/module10/image/arrow.png);
+        background-image:url("https://user7300.github.io/CIS1300/module10/image/arrow.png");
       }
       
     }
