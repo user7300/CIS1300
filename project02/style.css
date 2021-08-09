@@ -1,1 +1,35 @@
-
+body{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+		"header header header"
+		"left main right"
+		"footer footer footer";
+	min-height:  100vh;
+	margin: 0;
+	padding: 0;
+	background-color: lightseagreen;
+}
+header{
+	background-color: darkgreen;
+	grid-area: header;
+}
+aside{
+	background-color: darkgray;
+	grid-area: left;
+	padding: 1em;
+}
+main{
+	background-color: brown;
+	grid-area: main;
+}
+aside:last-of-type{
+	background-color: darkgray;
+	grid-area: right;
+}
+footer{
+	background-color: darkgreen;
+	grid-area: footer;
+	p[padding: 1em;]
+}
