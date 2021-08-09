@@ -47,8 +47,8 @@ body {
     max-width: 500px;
     height: auto;
     border-radius: 1em;
-   	border: 1px solid #cccccc;
-   	box-shadow: 1px 1px 2px -1px #000000;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 2px -1px #000000;
 }
 h3 {
 	text-decoration: underline bold small-caps;
