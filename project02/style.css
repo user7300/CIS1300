@@ -33,3 +33,18 @@ footer{
 	grid-area: footer;
 	p[padding: 1em;]
 }
+
+  @media screen and (max-width:575px) {
+      .container > .small-default {
+      }
+    }
+  @media screen and (max-width: 991px) and (min-width: 576px) {
+      .container > .medium-tablet {
+        background-color:#00ff00;
+      }
+    }
+  @media screen and (max-width: 992px) {
+      .container > .large-desktop {
+        background-color:#00ff00;
+      }
+    }
